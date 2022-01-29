@@ -1,5 +1,10 @@
 # links
 - url: "#"
-  description: Springfield Jazz Enthusiasts
+  description: Phone. 010-4717-8981
+  contact : true
 - url: "#"
-  description: Springfield Young Professionals
+  description: Email. dudqja115@gmail.com
+  contact : true
+- url: https://github.com/Kimpossible94
+  description: Github
+  channel : true

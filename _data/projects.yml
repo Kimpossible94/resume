@@ -1,16 +1,48 @@
-# Projects
-# uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+- project: Mentor & Mentee
+  role: 
+  duration: 2021.08 &mdash; Present
+  url: [CV]
+  description: 
+    <span style='font-size:20px; font-family:Pretendard-ExtraBold;'>Description.</span><br>
+    학원 과정 중 세미 프로젝트로 진행했던 프로젝트를 JPA와 Thymeleaf에 대한 공부와 코드 리뷰를 위해
+    Spring Boot 환경에서 JPA와 Thymeleaf를 사용해 옮긴 프로젝트입니다.
+    추가적으로 세미 프로젝트를 하며 아쉬웠던 부분을 추가하며 공부하는 중입니다.
+  description2:
+    <span style='font-size:20px; font-family:Pretendard-ExtraBold; padding-top:1rem;'>Tech.</span><br>
+    &middot; Thymeleaf를 사용하였습니다.<br>
+    &middot; 기존의 Quartz를 사용한 스케줄러를 스프링의 스케줄 어노테이션으로 바꾸었습니다.<br>
+    &middot; 빌드관리도구로 기존 Maven에서 Gradle로 바꿔서 사용하였습니다.<br>
+    &middot; IDE를 기존 Eclipse에서 IntelliJ로 바꿔서 사용하였습니다.
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+
+- project: 똑Dog한 집사들
+  role: 마켓 기능 담당
+  duration: 2021.11 &mdash; 2021.12
+  url: [CV]
+  description: 
+    <span style='font-size:20px; font-family:Pretendard-ExtraBold;'>Description.</span><br>
+    동물 병원 평균 진료비 제공 및 애견용품 판매 사이트입니다.
+    학원 과정 중 진행한 파이널 프로젝트로 동물 병원의 불투명한 진료비에 대한 해소를 목적으로 만들었습니다.
+    여기에 쇼핑몰 기능을 구현해 보고 싶어서 사이트의 쇼핑몰 기능을 추가하고 쇼핑몰 부분을 담당하였습니다.<br>
+  description2:
+    <span style='font-size:20px; font-family:Pretendard-ExtraBold; padding-top:1rem;'>Tech.</span><br>
+    &middot; Spring MVC 사용하였습니다.<br>
+    &middot; Spring 어노테이션 사용 스케줄러 구현해 자동화하였습니다.<br>
+    &middot; iamport api를 사용해 상품결제를 구현하였습니다.<br>
+    &middot; 프로시저를 사용해 DB와의 통신횟수를 줄였습니다.
+
+
+- project: Mentor & Mentee
+  role: 멘토링 기능 담당 (팀장)
+  duration: 2021.08 &mdash; 2021.09
+  url: [CV]
+  description: 
+    <span style='font-size:20px; font-family:Pretendard-ExtraBold;'>Description.</span><br>
+    코로나로 인한 비대면 상황이 많아지면서 입시박람회 같은 학생들이 대면으로 얻을 수 있는 정보에 대한 제한을 해소하기 위해
+    중/고등학생과 대학생들의 멘토 연결 공간을 제공해 주는 사이트입니다.
+  description2:
+    <span style='font-size:20px; font-family:Pretendard-ExtraBold; padding-top:1rem;'>Tech.</span><br>
+    &middot; Servlet과 JSP를 사용해 동적 웹페이지를 구현하였습니다<br>
+    &middot; Quartz를 사용해 자동화 기능을 구현하였습니다.<br>
+
