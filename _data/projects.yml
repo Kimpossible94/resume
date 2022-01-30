@@ -2,7 +2,7 @@
 - project: Mentor & Mentee
   role: 
   duration: 2021.08 &mdash; Present
-  url: [CV]
+  url: #
   description: 
     <span style='font-size:20px; font-family:Pretendard-ExtraBold;'>Description.</span><br>
     학원 과정 중 세미 프로젝트로 진행했던 프로젝트를 JPA와 Thymeleaf에 대한 공부와 코드 리뷰를 위해
@@ -19,7 +19,7 @@
 - project: 똑Dog한 집사들
   role: 마켓 기능 담당
   duration: 2021.11 &mdash; 2021.12
-  url: [/assets/M&M.pdf]
+  url: #
   description: 
     <span style='font-size:20px; font-family:Pretendard-ExtraBold;'>Description.</span><br>
     동물 병원 평균 진료비 제공 및 애견용품 판매 사이트입니다.
