@@ -100,6 +100,8 @@
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
           <p style="font-family: Pretendard-Regular;" class="resume-item-copy">{{ project.description }}</p>
           <p style="font-family: Pretendard-Regular;" class="resume-item-copy">{{ project.description2 }}</p>
+          
+          <p style="font-size: 14px; margin-top: 1rem; text-align: right;" class="resume-item-title" itemprop="name">{% if project.github %}<a href="{{ project.github }}" itemprop="url">Github</a>{% endif %}</p>
         </div>
         <hr style="margin-bottom: 2rem;">
         {% endfor %}

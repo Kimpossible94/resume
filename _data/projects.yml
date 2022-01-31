@@ -2,7 +2,8 @@
 - project: Mentor & Mentee
   role: 
   duration: 2021.08 &mdash; Present
-  url: #
+  url: false
+  github: https://github.com/Kimpossible94/mentor-mentee
   description: 
     <span style='font-size:20px; font-family:Pretendard-ExtraBold;'>Description.</span><br>
     학원 과정 중 세미 프로젝트로 진행했던 프로젝트를 JPA와 Thymeleaf에 대한 공부와 코드 리뷰를 위해
@@ -19,7 +20,8 @@
 - project: 똑Dog한 집사들
   role: 마켓 기능 담당
   duration: 2021.11 &mdash; 2021.12
-  url: #
+  url: /images/DogDog.pdf
+  github: https://github.com/bargyoon/finalProject
   description: 
     <span style='font-size:20px; font-family:Pretendard-ExtraBold;'>Description.</span><br>
     동물 병원 평균 진료비 제공 및 애견용품 판매 사이트입니다.
@@ -37,6 +39,7 @@
   role: 멘토링 기능 담당 (팀장)
   duration: 2021.08 &mdash; 2021.09
   url: /images/M&M.pdf
+  github: https://github.com/bargyoon/mm_project
   description: 
     <span style='font-size:20px; font-family:Pretendard-ExtraBold;'>Description.</span><br>
     코로나로 인한 비대면 상황이 많아지면서 입시박람회 같은 학생들이 대면으로 얻을 수 있는 정보에 대한 제한을 해소하기 위해
