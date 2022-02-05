@@ -48,7 +48,7 @@
       {% if site.resume_section_education %}
       <!-- begin Education -->
       <section class="content-section">
-          <h1 style="font-family: Pretendard-ExtraBold; font-size: 45px;">Education.</h1>
+          <h1 class="h1_title"><img class="title_img" src="/images/education.png"> Education.</h1>
 
         {% for education in site.data.education %}
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
@@ -74,7 +74,7 @@
       {% if site.resume_section_skills %}
       <!-- begin Skills -->
       <section class="content-section">
-        <h1 style="font-family: Pretendard-ExtraBold; font-size: 45px;">Skills.</h1>
+        <h1 class="h1_title"><img class="title_img" src="/images/skill.png"> Skills.</h1>
         {% for skill in site.data.skills %}
         <div class="resume-item">
           <h4 class="resume-item-details">{{ skill.skill }}</h4>
@@ -91,12 +91,12 @@
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
       <section class="content-section">
-        <h1 style="font-family: Pretendard-ExtraBold; font-size: 45px;">Projects.</h1>
+        <h1 class="h1_title"><img class="title_img" src="/images/project.png"> Projects.</h1>
 
         {% for project in site.data.projects %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
+          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{% if project.image-url %}<img style="width: 1.7rem; height: 1.7rem;" src={{ project.image-url }}>{% endif %}{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
           <p style="font-family: Pretendard-Regular;" class="resume-item-copy">{{ project.description }}</p>
           <p style="font-family: Pretendard-Regular;" class="resume-item-copy">{{ project.description2 }}</p>
@@ -134,7 +134,7 @@
       {% if site.resume_section_links %}
       <!-- begin Links -->
       <section class="content-section">
-        <h1 style="font-family: Pretendard-ExtraBold; font-size: 45px;">Contact & Channel.</h1>
+        <h1 class="h1_title"><img class="title_img" src="/images/contact.png"> Contact & Channel.</h1>
 
         <div class="resume-item">
           <ul class="resume-item-list" style="list-style: none; padding-left: 0;">
@@ -143,7 +143,7 @@
               <li><a  style="font-size: 22px;" href={{ link.url }} itemprop="url">{{ link.description }}</a></li>
               {% endif %}
               {% if link.channel %}
-              <li style="margin-top: 1rem;"><a  style="font-size: 22px; margin-top: 1rem;" href={{ link.url }} itemprop="url">{{ link.description }}</a></li>
+              <li style="margin-top: 1rem;"><a style="font-size: 22px; margin-top: 1rem;" href={{ link.url }} itemprop="url"><img style="width: 1.5rem; height: 1.5rem;" src={{ link.src }}> {{ link.description }}</a></li>
               {% endif %}
             {% endfor %}
           </ul>

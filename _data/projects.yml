@@ -1,8 +1,9 @@
 
 - project: Mentor & Mentee
   role: 
-  duration: 2021.08 &mdash; Present
+  duration: 2022.01 &mdash; Present
   url: false
+  image-url:  false
   github: https://github.com/Kimpossible94/mentor-mentee
   description: 
     <span style='font-size:20px; font-family:Pretendard-ExtraBold;'>Description.</span><br>
@@ -21,6 +22,7 @@
   role: 마켓 기능 담당
   duration: 2021.11 &mdash; 2021.12
   url: /images/DogDog.pdf
+  image-url:  /images/paw.png
   github: https://github.com/bargyoon/finalProject
   description: 
     <span style='font-size:20px; font-family:Pretendard-ExtraBold;'>Description.</span><br>
@@ -39,6 +41,7 @@
   role: 멘토링 기능 담당 (팀장)
   duration: 2021.08 &mdash; 2021.09
   url: /images/M&M.pdf
+  image-url:  /images/mentor.png
   github: https://github.com/bargyoon/mm_project
   description: 
     <span style='font-size:20px; font-family:Pretendard-ExtraBold;'>Description.</span><br>
