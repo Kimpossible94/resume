@@ -1,7 +1,6 @@
 # Resume template
 
 *A simple Jekyll + GitHub Pages powered resume template.*
-![e](https://user-images.githubusercontent.com/80395024/159497653-2814e1ad-7e2f-4339-8665-e69b6758e9d3.jpg)
 
 ![img](images/screenshot.png)
 
