@@ -21,8 +21,8 @@
 - project: 똑Dog한 집사들
   role: 마켓 기능 담당
   duration: 2021.11 &mdash; 2021.12
-  url: /images/DogDog.pdf
-  image-url:  /images/paw.png
+  url: ./images/DogDog.pdf
+  image-url:  ./images/paw.png
   github: https://github.com/bargyoon/finalProject
   description: 
     <span style='font-size:20px; font-family:Pretendard-ExtraBold;'>Description.</span><br>
@@ -40,8 +40,8 @@
 - project: Mentor & Mentee
   role: 멘토링 기능 담당 (팀장)
   duration: 2021.08 &mdash; 2021.09
-  url: /images/M&M.pdf
-  image-url:  /images/mentor.png
+  url: ./images/M&M.pdf
+  image-url:  ./images/mentor.png
   github: https://github.com/bargyoon/mm_project
   description: 
     <span style='font-size:20px; font-family:Pretendard-ExtraBold;'>Description.</span><br>
